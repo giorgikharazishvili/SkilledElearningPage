@@ -140,8 +140,8 @@ header>button {
     margin: auto;
     top: 1rem;
     left: 0px;
-    right: 0px;
     height: 12rem;
+    right: 0px;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 }
 
