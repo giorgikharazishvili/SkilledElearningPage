@@ -13,12 +13,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     background-color: aliceblue;
     width: 100vw;
     height: 8rem;
     left: 0px;
     top: 0px;
+    overflow: hidden;
 }
 
 header>div {
@@ -52,7 +53,7 @@ header>button {
     height: auto;
     top: 8rem;
     background: linear-gradient(180deg, aliceblue 0%, #FFFFFF  100%);
-
+    overflow: hidden;
 }
 
 #title {
@@ -216,6 +217,7 @@ footer {
     left: 0px;
     bottom: 0px;
     margin-top: 2rem;
+    overflow: hidden;
 }
 
 footer>div {
