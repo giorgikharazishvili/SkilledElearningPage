@@ -126,8 +126,6 @@ header>button {
     right: 0px;
     height: 180rem;
     top: 65rem;
-    margin-left: 1.6rem;
-    margin-right: 1.6rem;
     overflow: hidden;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 
@@ -202,6 +200,7 @@ header>button {
     padding-left: 2.8rem;
     top: -2.8rem;
 }
+
 
 
 
