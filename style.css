@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     position: absolute;
     background-color: aliceblue;
-    width: 100vw;
+    width: 100%;
     height: 8rem;
     left: 0px;
     top: 0px;
@@ -211,21 +211,20 @@ header>button {
 
 
 /* Footer */
-footer {
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     background-color: #13183F;
-    width: 100vw;
+    width: 100%;
     height: 8rem;
-    left: 0px;
     bottom: 0px;
     margin-top: 2rem;
     overflow: hidden;
 }
 
-footer>div {
+.footer>div {
     position: relative;
     margin: 1.6rem;
     font-family: Plus Jakarta Sans;
@@ -236,7 +235,7 @@ footer>div {
     color: aliceblue;
 }
 
-footer>button {
+.footer>button {
     position: relative;
     width: 14rem;
     height: 4.8rem;
