@@ -16,7 +16,7 @@ header {
     justify-content: space-between;
     position: fixed;
     background-color: aliceblue;
-    width: 100%;
+    width: 100vw;
     height: 8rem;
     left: 0px;
     top: 0px;
@@ -211,7 +211,7 @@ footer {
     justify-content: space-between;
     position: fixed;
     background-color: #13183F;
-    width: 100%;
+    width: 100vw;
     height: 8rem;
     left: 0px;
     bottom: 0px;
