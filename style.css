@@ -124,7 +124,7 @@ header>button {
     position: absolute;
     left: 0px;
     right: 0px;
-    /* height: 170rem; */
+    height: 180rem;
     top: 65rem;
     margin-left: 1.6rem;
     margin-right: 1.6rem;
@@ -152,6 +152,10 @@ header>button {
     text-align: left;
     padding-left: 2.9rem;
     color: #ffffff;
+}
+
+#business {
+    margin-bottom: 4rem;
 }
 
 .div-in-section-bottom {
