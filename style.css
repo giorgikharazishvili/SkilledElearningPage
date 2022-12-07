@@ -5,7 +5,6 @@ html {
 body {
     width: 100vw;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
 }
 
 
@@ -47,13 +46,13 @@ header>button {
 /* Section Above */
 .section-above {
     position: absolute;
-    width: auto;
+    width: 100%;
     left: 0px;
     right: 0px;
     height: auto;
-    top: 10.6rem;
-    margin-left: 1.6rem;
-    margin-right: 1.6rem;
+    top: 8rem;
+    background: linear-gradient(180deg, aliceblue 0%, #FFFFFF  100%);
+
 }
 
 #title {
@@ -122,12 +121,13 @@ header>button {
 
 .section-bottom {
     position: absolute;
+    width: 100%;
     left: 0px;
     right: 0px;
     height: 180rem;
     top: 65rem;
     overflow: hidden;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, aliceblue 100%);
 
 }
 
