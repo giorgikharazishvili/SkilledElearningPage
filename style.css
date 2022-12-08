@@ -5,9 +5,7 @@ html {
 body {
     width: 100vw;
     overflow-x: hidden;
-    background: linear-gradient(180deg, aliceblue 0%, #FFFFFF 100%);
 }
-
 
 /* Header */
 header {
@@ -15,7 +13,6 @@ header {
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    background-color: aliceblue;
     width: 100%;
     height: 8rem;
     left: 0px;
@@ -26,15 +23,11 @@ header {
 header>div {
     position: relative;
     margin: 1.6rem;
-    font-family: Plus Jakarta Sans;
     font-size: 28px;
     font-weight: 800;
-    line-height: 35px;
-    text-align: left;
 }
 
 header>button {
-    position: relative;
     width: 14rem;
     height: 4.8rem;
     margin: 1.6rem;
@@ -43,6 +36,10 @@ header>button {
     color: aliceblue;
     font-size: 1.6rem;
     background-color: #13183F;
+}
+
+header>button:hover {
+    background-color: #666CA3;
 }
 
 /* Section Above */
@@ -121,9 +118,6 @@ header>button {
 .section-bottom {
     position: absolute;
     width: 100%;
-    left: 0px;
-    right: 0px;
-    /* height: 180rem; */
     top: 60rem;
     overflow: hidden;
     background: linear-gradient(180deg, #FFFFFF 0%, aliceblue 100%);
@@ -198,7 +192,6 @@ header>button {
     padding-left: 2.8rem;
     top: -2.8rem;
 }
-
 
 /* Footer */
 .footer {
@@ -295,7 +288,7 @@ header>button {
         margin-top: 4rem;
         height: 26rem;
         width: 34.3rem;
-        
+
     }
 
     #div-check-out-cources>p {
@@ -396,7 +389,7 @@ header>button {
         gap: 57px;
         height: 90rem;
         bottom: 8rem;
-        background: linear-gradient(180deg,  aliceblue 100%,  #FFFFFF 0%);
+        background: linear-gradient(180deg, aliceblue 100%, #FFFFFF 0%);
     }
 
     .div-in-section-bottom {
@@ -416,11 +409,14 @@ header>button {
         margin-top: 4rem;
         height: 33rem;
         width: 35rem;
-        
     }
 
     #div-check-out-cources>p {
         margin-top: 5rem;
     }
 
+    #top-button-get-started:hover {
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+    }
 }
